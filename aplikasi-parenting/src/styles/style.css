@@ -1,0 +1,137 @@
+* {
+  position: relative;
+  margin: 0px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+body {
+  background: url("../../images/Parenting-app.jpg");
+  background-size: cover;
+  font-weight: bold;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 34px;
+}
+nav {
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+}
+nav,
+ul {
+  display: flex;
+  /*   padding:1em; */
+  margin: 0px;
+  align-items: center;
+}
+nav,
+li {
+  list-style-type: none;
+  margin-inline: 10px;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+}
+.nameApp,
+.nav-li {
+  display: flex;
+  padding-inline: 3px;
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+}
+h1 {
+  text-align: center;
+  /* padding-left: 50px; */
+  margin-right: 12em;
+}
+.Text,
+h2 {
+  text-align: center;
+  font-size: small;
+  margin-top: 3em;
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(90deg, #ffffffff 51%, #ad7633ff 40%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: Text;
+  font-size: 4em;
+  filter: contrast(100%);
+  /* color: aquamarine black; */
+}
+.p-text {
+  text-align: center;
+}
+h3,
+.None {
+  text-align: center;
+  margin-bottom: 5em;
+}
+.head-h3 {
+  margin-top: 4em;
+  font-size: 130%;
+  line-height: 0.1;
+}
+.img-TipsAndTriks {
+  display: inline;
+  /* padding-bottom: 13px; */
+}
+
+.photo {
+  margin-inline: 2em;
+  bottom: 3em;
+  left: 21px;
+  border-radius: 10px;
+}
+
+h4,
+.Head-4 {
+  margin-inline: 18em;
+  bottom: 21px;
+  left: 59px;
+}
+
+.p-Tips {
+  margin-inline: 23em;
+  left: 50px;
+  bottom: 180px;
+  font-size: 13px;
+}
+
+.img-rata {
+  margin-block: 10px 20px;
+  writing-mode: horizontal-tb;
+  padding-inline: 8em;
+}
+
+div.content {
+  padding: 5px;
+}
+
+article h2 {
+  margin: 20px 30px;
+  font-size: 50px;
+}
+
+.vid-parenting {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  width: 300px;
+  height: 400px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.w3-button {
+  width: 100px;
+}
